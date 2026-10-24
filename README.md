@@ -1,69 +1,37 @@
 # bundleweb
 
-**Développeur indépendant — applications mobiles, backends web, intégration IA.**
+**Développeur indépendant à Paris.** Je conçois et je livre des produits complets, seul :
+de l'idée à l'application publiée sur le store, en passant par le backend, l'infrastructure
+et le déploiement.
 
-Je conçois et je livre des produits complets, seul : de l'idée à l'application publiée
-sur le store, en passant par le backend, l'infrastructure et le déploiement.
-Micro-entreprise française.
-
-> Une partie de mon travail est sous contrat ou commercialement sensible, donc privée.
-> Accès en lecture possible sur demande, dans le cadre d'un recrutement ou d'une mission.
+[bundleweb.app](https://bundleweb.app) · [gitlab.com/kazarime](https://gitlab.com/kazarime) · contact@bundleweb.app
 
 ---
 
-## Outils
+### En production
 
-### TermPilot — piloter ses sessions de terminal sous Linux
-Retrouver et contrôler plusieurs sessions Terminator d'un coup d'œil : l'état de chacune,
-une notification quand l'une a terminé, des noms mémorisés par projet.
+Deux applications mobiles publiées sur les stores, les backends et les API qui les servent,
+et une suite de soixante et un outils en ligne générée par un template Python. L'ensemble
+tourne sur une infrastructure que j'administre : conteneurs, déploiement continu sur push,
+domaines, certificats, SMTP authentifié.
 
-- Quatre formats commutables au clavier : panneau, mini-barre, barre latérale à masquage
-  automatique, bulle flottante
-- Python / GTK3 · X11 · DBus · service systemd utilisateur
-- Sans dépendance hors bibliothèque standard et PyGObject
+Le code est sous contrat ou commercialement sensible, donc privé. Accès en lecture possible
+sur demande, dans le cadre d'un recrutement ou d'une mission.
 
-*D'autres outils sont en cours de préparation pour publication.*
+### Ce que je publie ici
 
----
+**TermPilot** — piloter plusieurs sessions de terminal sous Linux : l'état de chacune,
+une notification quand l'une a fini, des noms mémorisés par projet. Quatre formats
+commutables au clavier, et un greffon Terminator qui rend chaque split adressable —
+ce qu'aucun outil externe ne peut faire, X11 ne voyant qu'une fenêtre par split.
+Python/GTK3, DBus, service systemd utilisateur.
 
-## Travail privé
+### Stack
 
-- **Deux applications mobiles publiées sur le Google Play Store**, dans des secteurs
-  concurrentiels — concept et code non publics.
-- **Backends et API en production** sur infrastructure auto-hébergée, déploiement continu.
-- **Intégration de l'API Claude en production** : analyse d'image, extraction de données
-  structurées, génération de texte.
-- **Un générateur de sites statiques** qui produit, depuis un seul template, un site
-  complet de plusieurs dizaines de pages outils avec sitemap et pages légales — les
-  traitements s'exécutent intégralement dans le navigateur, sans upload.
-
-Je peux en parler en détail en entretien, et ouvrir un accès en lecture à qui le demande.
+React Native · Expo · Python · Node.js · PostgreSQL · Supabase · Firebase ·
+API Claude en production (vision, extraction structurée) · Docker · Coolify · Cloudflare ·
+RevenueCat · Stripe · publication Google Play automatisée
 
 ---
 
-## Stack
-
-**Mobile** · React Native, Expo, Expo Router, Zustand, NativeWind
-**Backend** · Python, Node.js, PostgreSQL, Supabase, Firebase
-**IA** · API Claude en production (vision, extraction structurée, génération)
-**Infra** · Docker, Coolify sur VPS, Cloudflare, CI/CD par webhook, SMTP authentifié (DKIM/SPF/DMARC)
-**Paiement** · RevenueCat, Stripe
-**Publication** · Google Play — compte développeur, service account, déploiement automatisé
-
----
-
-## Comment je travaille
-
-- **Je finis.** Des applications en production sur un store, pas des dépôts abandonnés au MVP.
-- **Je maîtrise la chaîne complète** : je ne dépends de personne pour mettre en ligne.
-- **Je documente pour celui qui reprendra** : chaque projet porte ses décisions
-  d'architecture et les pièges déjà payés.
-- **Je choisis la solution ennuyeuse** quand elle suffit — un générateur Python de
-  deux cents lignes plutôt qu'un framework, si le résultat est plus rapide et plus durable.
-
----
-
-## Me contacter
-
-- **Email** · contact@bundleweb.app
-- **Disponible** pour missions en freelance et pour discuter d'un poste.
+Disponible pour missions freelance et pour discuter d'un poste.
